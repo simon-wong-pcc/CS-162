@@ -1,0 +1,25 @@
+Program Name:
+
+Program Description:
+
+
+Design:
+A. INPUT
+Define the input variables including name data type. 
+
+B. OUTPUT
+Define the output variables including data types. 
+
+C. CALCULATIONS
+Describe calculations used by algorithms in step D.  
+List all formulas. 
+If there are no calculations needed, state there are no calculations.
+
+D. LOGIC and ALGORITHMS
+Design the logic of your program using pseudocode or flowcharts. 
+Use conditionals, loops, functions or array constructs.
+List the steps in transforming inputs into outputs. 
+
+
+SAMPLE RUNS
+Copy from assignment document.

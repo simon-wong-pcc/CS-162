@@ -1,0 +1,29 @@
+Flowcharts:
+https://app.diagrams.net/
+
+OVALS: 
+  These appear at the top and bottom of the flowchart, and are called terminal symbols.
+  The Start terminal symbol marks the program’s starting point, and the End terminal symbol marks the program’s ending point.
+  
+PARALLELOGRAMS: 
+  Used for both input symbols (adding or getting information) and output symbols (displaying or printing information). 
+
+RECTANGLES: 
+  These are called processing symbols; use these to perform an action with the inputs or outputs. 
+
+DIAMONDS: 
+  These are called decision symbols; use these to evaluate a condition or statement and will branch depending on whether the evaluation is true or false.
+
+CIRCLES: 
+  If your flowchart is too large to fit on a single page, you can break the flowchart into parts, and place the parts side-by-side as we did with the pesto recipe. When you do this, you use a connector symbol to connect the pieces of the flowchart. A connector symbol is a small circle with a letter or number written inside it. 
+
+
+C++ reference
+https://en.cppreference.com/
+
+Search within cppreference.com
+https://www.google.com/search?q=site:cppreference.com+KEYWORD
+
+zyBooks
+https://learn.zybooks.com/zybook/PCCCS161ASummer24
+
