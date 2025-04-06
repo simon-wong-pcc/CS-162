@@ -1,19 +1,31 @@
 Program Name: Activity Tracker (Structs Review Assignment)
 
-Program Description: 
+Program Description: This program helps a user keep track of activities and related information. The user will be able to read, write, delete, and search through the list of activities and then store it to a local file.
 
 
 Design:
 A. INPUT
-Define the input variables including name data type. 
+char menuSelection - The menu option the user chooses
+string activityName - The name of the activity the user wants to add
+string activityLocation - The location of the activity the user wants to add
+string activityLevel - How hard the activity is
+int activityRating - A rating of the activity from a scale of 0 - 10
+int activityType - What type of activity it is (0-Athletics, 1-Food, 2-Arts, 3-Games, and 4-Others)
+string locationName - The name of the location the user wants to search by
+int activityType - The activity type the user wants to search by
+int index - The index of the activity the user wants to remove
+string searchFilter - The name of the activity the user wants to find
+
 
 B. OUTPUT
-Define the output variables including data types. 
+string activityName - The name of the activity
+string activityLocation - The location of the activity
+string activityLevel - The skill level of the activity
+int activityRating - The rating of the activity, scale of 0 - 10
+string activityType - The type of activity
 
 C. CALCULATIONS
-Describe calculations used by algorithms in step D.  
-List all formulas. 
-If there are no calculations needed, state there are no calculations.
+No calculations needed
 
 D. LOGIC and ALGORITHMS
 Design the logic of your program using pseudocode or flowcharts. 
@@ -22,4 +34,168 @@ List the steps in transforming inputs into outputs.
 
 
 SAMPLE RUNS
-Copy from assignment document.
+Welcome!
+This program will help you manage your activities.
+
+Pick an option from below:
+
+(a)Add a new activity
+(b)List activities by name
+(c)List activities by location
+(d)List activities by Type
+(e)Remove an activity
+(f)Search by activity name
+(q)Quit
+
+b
+1. Catan;Epic Gaming;Easy;4;Games
+2. Oil Painting;Fun Studios;Tricky;6;Arts
+3. Pottery;Fun Studios;Easy;7;Arts
+4. Skiing;Mt Hood Meadows;Difficult;6;Athletics
+5. Snowboarding;Mt Hood Meadows;Not for Faint of heart;8;Athletics
+6. Wine Making;Umpqua Valley;Complicated;9;Food
+
+Pick an option from below:
+
+(a)Add a new activity
+(b)List activities by name
+(c)List activities by location
+(d)List activities by Type
+(e)Remove an activity
+(f)Search by activity name
+(q)Quit
+
+p
+Invalid option!! Please try again!
+
+Pick an option from below:
+
+(a)Add a new activity
+(b)List activities by name
+(c)List activities by location
+(d)List activities by Type
+(e)Remove an activity
+(f)Search by activity name
+(q)Quit
+
+d
+Enter Type number(0-Athletics, 1-Food, 2-Arts, 3-Games, and 4-Others): 0
+
+Skiing;Mt Hood Meadows;Difficult;6;Athletics
+Snowboarding;Mt Hood Meadows;Not for Faint of heart;8;Athletics
+
+Pick an option from below:
+
+(a)Add a new activity
+(b)List activities by name
+(c)List activities by location
+(d)List activities by Type
+(e)Remove an activity
+(f)Search by activity name
+(q)Quit
+
+C
+Enter location name: Hood Meadows
+
+1. Skiing;Mt Hood Meadows;Difficult;6;Athletics
+2. Snowboarding;Mt Hood Meadows;Not for Faint of heart;8;Athletics
+
+
+Pick an option from below:
+
+(a)Add a new activity
+(b)List activities by name
+(c)List activities by location
+(d)List activities by Type
+(e)Remove an activity
+(f)Search by activity name
+(q)Quit
+
+e
+1. Catan;Epic Gaming;Easy;4;Games
+2. Oil Painting;Fun Studios;Tricky;6;Arts
+3. Pottery;Fun Studios;Easy;7;Arts
+4. Skiing;Mt Hood Meadows;Difficult;6;Athletics
+5. Snowboarding;Mt Hood Meadows;Not for Faint of heart;8;Athletics
+6. Wine Making;Umpqua Valley;Complicated;9;Food
+
+
+Pick the index to remove: 4
+
+Activity removed!
+1. Catan;Epic Gaming;Easy;4;Games
+2. Oil Painting;Fun Studios;Tricky;6;Arts
+3. Pottery;Fun Studios;Easy;7;Arts
+4. Snowboarding;Mt Hood Meadows;Not for Faint of heart;8;Athletics
+5. Wine Making;Umpqua Valley;Complicated;9;Food
+
+Pick an option from below:
+
+(a)Add a new activity
+(b)List activities by name
+(c)List activities by location
+(d)List activities by Type
+(e)Remove an activity
+(f)Search by activity name
+(q)Quit
+
+a
+Enter the activity name (50 characters or less): Rowing
+Enter the activity location (50 characters or less): Oaks Amusement Park
+Enter the activity level : Tricky
+Enter the activity rating : aaa
+Invalid input!! Please enter an integer between 0 and 10!
+Enter the activity rating : 8
+Enter Type number(0-Athletics, 1-Food, 2-Arts, 3-Games, and 4-Others): 0
+
+Activity added!
+1. Catan;Epic Gaming;Easy;4;Games
+2. Oil Painting;Fun Studios;Tricky;6;Arts
+3. Pottery;Fun Studios;Easy;7;Arts
+4. Rowing;Oaks Amusement Park;Tricky;8;Athletics
+5. Snowboarding;Mt Hood Meadows;Not for Faint of heart;8;Athletics
+6. Wine Making;Umpqua Valley;Complicated;9;Food
+
+Pick an option from below:
+
+(a)Add a new activity
+(b)List activities by name
+(c)List activities by location
+(d)List activities by Type
+(e)Remove an activity
+(f)Search by activity name
+(q)Quit
+
+f
+Enter the activity name (50 characters or less): Snowboarding
+
+Activity found!
+5. Snowboarding;Mt Hood Meadows;Not for Faint of heart;8;Athletics
+
+Pick an option from below:
+
+(a)Add a new activity
+(b)List activities by name
+(c)List activities by location
+(d)List activities by Type
+(e)Remove an activity
+(f)Search by activity name
+(q)Quit
+
+f
+Enter the activity name (50 characters or less): Skiing
+Activity not found!!
+
+Pick an option from below:
+
+(a)Add a new activity
+(b)List activities by name
+(c)List activities by location
+(d)List activities by Type
+(e)Remove an activity
+(f)Search by activity name
+(q)Quit
+
+q
+
+Activities written to file! Thank you for using my program!!
