@@ -1,6 +1,10 @@
+Skiing;Mt Hood Meadows;Difficult;6;0
+Wine Making;Umpqua Valley;Complicated;9;1
 Catan;Epic Gaming;Easy;4;3
 Oil Painting;Fun Studios;Tricky;6;2
+Cycling;Champoeg;Difficult;7;0
 Pottery;Fun Studios;Easy;7;2
-Rowing;Oaks Amusement Park;Tricky;8;0
 Snowboarding;Mt Hood Meadows;Not for Faint of heart;8;0
-Wine Making;Umpqua Valley;Complicated;9;1
+Cooking Class;Portland Community Collage;Easy;6;1
+Job Training;Fred Meyer;Easy;3;4
+Soccer;Soccer Field;Difficult;6;0
