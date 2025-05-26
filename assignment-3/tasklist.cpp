@@ -70,7 +70,7 @@ void TaskList::insert(Task task)
     Node* prev = nullptr;
     Node* curr = head;
 
-    while (curr != nullptr && strcmp(task.getName(), curr->data.getName()) > 0) {
+    while (curr != nullptr && strcmp(task.getPerson(), curr->data.getPerson()) > 0) {
         prev = curr;
         curr = curr->next;
     }

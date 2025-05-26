@@ -44,8 +44,8 @@ void TaskList::insert(Task task)
     }
 
     int i = size;
-    // Loop while i > 0 and while activity.name comes before
-    while (i > 0 && strcmp(task.getName(), arr[i - 1].getName()) < 0) {
+    // Loop while i > 0 and while activity.person comes before
+    while (i > 0 && strcmp(task.getPerson(), arr[i - 1].getPerson()) < 0) {
         arr[i] = arr[i - 1];
         i--;
     }
